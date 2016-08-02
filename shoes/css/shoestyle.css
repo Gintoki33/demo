@@ -1,0 +1,179 @@
+@charset "utf-8";
+/* CSS 初始化 */
+body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,table,tr,td,form,p,ul,li,ol,span,img,a,em,i,strong,b,input,select,option,textarea,label{ margin:0; padding:0;}
+li{ list-style:none;}
+img{ border:0 none; vertical-align:top;}
+body{ font-family:"微软雅黑"; font-size:14px;  color:#404040;min-width:1260px;}
+a{ color:#006699; text-decoration:none;}
+a:hover{ color:#f04381;}
+.clearfix{ *zoom:1;}
+.clearfix:after{ content:"."; clear:both; visibility:hidden; height:0; display:block;}
+/* 导航*/
+
+#nav{ width:1260px;  margin:0 auto;}
+.navleft{float:left;line-height:25px; margin:8px 0 0 97px ; width:auto; height:25px;}
+.navleft li{ float:left; line-height:14px; width:auto; height:auto; margin-right:30px; font-weight:bold;}
+.navright{float:right;}
+.navright li{ margin:0 0 0 30px;} 
+.navs{ float:left; padding-right:22px; background:url(../images/1.jpg) no-repeat right 2px; }
+/*广告顶*/
+#banner-top{ width:100%;/*可视窗口*/  height:70px; padding-top:426px;background:url(../images/bannertop_bg.jpg) no-repeat center top #f4e033; border-top:1px solid #f56293;}
+
+.banner-top-link{ height:70px; background:url(../images/banner-top-link.jpg) no-repeat;}
+.banner-top-link a{ float:left; width:50%; height:100%; overflow:hidden; text-indent:-99em;}
+/*切换*/
+#slider{ width:100%; height:657px; padding-top:20px;background:url(../images/bannerbottom_bg.jpg) no-repeat center top #f4e033;}
+.slider-content{ width:991px; margin:0 auto; height:428px; background:#fff;}
+.slider-content li{ float:left; width:47px; overflow:hidden;/*溢出隐藏*/ margin-left:1px; margin-top:-1px;	transition:all 1s;}
+.slider-content .current{width:798px; margin:0 -1px 0 1px;}
+/*女装*/
+#girl{ width:100%;background:#e04ede; position:relative;}
+.girl-tit{ position:absolute; top:-228px; left:50%; margin-left:-183px; width:369px; height:162px; background:url(../images/girl_tit.png) no-repeat; overflow:hidden; text-indent:-99em;}
+.girl-ad-01{ position:absolute;margin-left:-495px; width:990px; height:166px;top:-119px; left:50%; margin-left:-495px;}
+.girl-new-list{ overflow:hidden; padding-top:60px;}
+.girl-new-list ul{ width:110%; height:auto;}
+.girl-new-list li{ position:relative; float:left; width:190px; height:330px; margin:10px 10px 0 0; background:#fff;}
+.girl-new-list li img{ display:block;}
+.girl-new-brandlogo{ margin:8px  auto 0;}
+.girl-new-tit{ display: block; line-height:30px; text-align:center; color:#2d0505;}
+.girl-new-coupon{ width:137px; height:26px; margin:3px 0 0 27px; background:#f0196a; color:#fff;}
+.girl-new-coupon dt{ float:left; width:68px; height:25px; margin-top:1px; line-height:24px; text-align:center; border-right: 1px solid #f34788;}
+.girl-new-coupon dd { float:left; padding-left:10px; line-height:26px;}
+.girl-new-hover{position:absolute; display:none;top:0;left:0;z-index:99;width:100%;height:100%;filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#3D000000', endColorstr='#3D000000');background:rgba(0,0,0,0.24);_position:absolute;}
+.girl-new-link{display:block;width:100%;height:100%;position:absolute;}
+.girl-new-couponlink{position:absolute;bottom:13px;left:50%; margin-left:-86px;  width:172px; height:33px;}
+.girl-new-couponlink .girl-new-coupon{ width:100%; height:100%; margin:0;}
+.girl-new-couponlink .girl-new-coupon dt{ width:84px; line-height:33px; height:33px; margin:0; font-size:18px; border-width:2px;}
+.girl-new-couponlink .girl-new-coupon dd{ padding-top:4px;}
+.girl-new-list li:hover .girl-new-hover{ display:block;}
+/*聚划算*/
+#juhuassuan{ width:100%;background:#e04ede;}
+.jtit{ height:143px; background:url(../images/tit2.png) center no-repeat;overflow:hidden; text-indent:-99em; }
+.jhs  ul{height:242px; width:110%; overflow:hidden;}
+.jhs  li{float:left; width:323px; height:242px; background:#FFF; margin-right:10px;}
+/*休闲舒适*/
+#xiuxian{width:100%;background:#e04ede; padding-top:5px;}
+.beauty_tit{ height:151px; width:353px;  margin:0 auto; background:url(../images/bggg.png) no-repeat -337px 0;overflow:hidden; text-indent:-99em; margin-bottom:19px; }
+.xiuxian_tit{ height:33px; width:100%; margin:0 auto; background:url(../images/bggg.png) no-repeat 0 -154px; padding-top:6px;}
+.xiuxian_tit .titwz{ background:url(../images/bggg.png) no-repeat 0 -233px;overflow:hidden; text-indent:-99em;}
+.xxsslist ul{ width:110%; height:auto; margin-top:10px;}
+.xxsslist li{ width:190px; height:355px;margin:10px 10px 0 0; background:#fff; position:relative; float:left;}
+.girl-arder-shopname,.girl-arder-shopnameb{ display:block; padding-left:10px;}
+.girl-arder-shopname{ line-height:20px; font-size:16px; color:#f12773;}
+.girl-arder-shopnameb{ line-height:16px; font-size:12px; color:#999;}
+.girl-arder-img{ display:block; margin-top:2px;}
+.girl-arder-tit{ display:block; width:160px; padding-left:10px; color:#585858; height:40px; line-height:20px; overflow:hidden;}
+.girl-arder-price{ display:block; width:170px; height:36px; padding-left:10px;}
+.girl-arder-price em{  font-style:normal; float:left; line-height:36px; height:36px;  color:#f0196a; font-size:22px;}
+.girl-arder-price b{ font-weight:400; font-size:14px;}
+.girl-arder-price i{ font-style:normal; float:right; line-height:30px; padding-top:6px; color:#9b9b9b; text-decoration:line-through;}
+.girl-arder-coupon{ display:block ; position:relative; z-index:99; width:169px; height:36px; margin-left:9px; background:url(../images/bggg.png) no-repeat -727px -242px;}
+.girl-arder-hover{ display:none; position:absolute; z-index:77; left:-2px; top:-2px; width:100%; height:100%; border:2px solid #e9d93f;}
+.xxsslist li:hover .girl-arder-hover{ display:block;}
+/*淑女之家*/
+#shunv{width:100%;background:#e04ede; padding-top:54px;}
+#shunv .xiuxian_tit .titwz{ background:url(../images/bggg.png) no-repeat 0 -282px;overflow:hidden; text-indent:-99em;}
+/*职场ol*/
+#zhichang{width:100%;background:#e04ede; padding-top:54px;}
+#zhichang .xiuxian_tit .titwz{ background:url(../images/bggg.png) no-repeat 0 -331px;overflow:hidden; text-indent:-99em;}
+/*最爱运动*/
+#zuiaiyundong{width:100%;background:#e04ede; padding-top:54px;}
+#zuiaiyundong .xiuxian_tit .titwz{ background:url(../images/bggg.png) no-repeat 0 -381px;overflow:hidden; text-indent:-99em;}
+/*偏爱英伦*/
+#pianaiyinglun{width:100%;background:#e04ede; padding-top:54px;}
+#pianaiyinglun .xiuxian_tit .titwz{ background:url(../images/bggg.png) no-repeat 0 -431px;overflow:hidden; text-indent:-99em;}
+/*中国制造*/
+#chinacreate{width:100%;background:#e04ede; padding-top:60px; padding-bottom:35px;}
+#chinacreate .xxsslist ul{ width:110%; height:auto; margin-top:20px;}
+#chinacreate .xxsslist li{ width:190px; height:310px;margin:10px 10px 0 0; background:#fff; position:relative; float:left;}
+.createchina_tit{ width:348px; height:74px; background:url(../images/bggg.png) -337px -516px; margin:0 auto; }
+.createchinaimg{ display:block;}
+.girl-arder-buy{ position:relative; z-index:99;display:block; width:169px; height:36px; font-size:18px; line-height:36px; text-align:center; color:#FFF; background:#f0196a; margin-left:11px;}
+#chinacreate .girl-arder-hover{ display:none; position:absolute; z-index:77; left:-2px; top:-2px; width:100%; height:100%; border:2px solid #5c29c4;}
+#chinacreate .xxsslist li:hover .girl-arder-hover{ display:block;}
+/*男装*/
+#boy{ width:100%;background:#753ac8; position:relative;}
+.boy-tit-bg{ background:url(../images/boytitbg.jpg) no-repeat;}
+.boy-tit{width:350px; height:153px; background:url(../images/bggg.png) no-repeat -337px -195px; overflow:hidden; text-indent:-99em; margin-left:319px;}
+.boy-new-list{ overflow:hidden;}
+.boy-ad-01{ width:990px; height:140px; position:absolute; top:137px;}
+
+.boy-new-list ul{ background:#753ac8;width:110%; height:auto; padding-top:143px;} 
+.boy-new-list li{ position:relative; float:left; width:190px; height:330px; margin:10px 10px 0 0; background:#fff;}
+.boy-new-list li img{ display:block;}
+.boy-new-brandlogo{ margin:8px auto 0;}
+.boy-new-tit{ display: block; line-height:30px; text-align:center; color:#2d0505;}
+.boy-new-coupon{ width:137px; height:26px; margin:3px 0 0 27px; background:#1e5fc3; color:#fff;}
+.boy-new-coupon dt{ float:left; width:68px; height:25px; margin-top:1px; line-height:24px; text-align:center; border-right: 1px solid #4b7fcf;}
+.boy-new-coupon dd { float:left; padding-left:10px; line-height:26px;}
+.boy-new-hover{position:absolute; display:none;top:0;left:0;z-index:99;width:100%;height:100%;filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#3D000000', endColorstr='#3D000000');background:rgba(0,0,0,0.24);_position:absolute;}
+.boy-new-link{display:block;width:100%;height:100%;position:absolute;}
+.boy-new-couponlink{position:absolute;bottom:13px;left:50%; margin-left:-86px;  width:172px; height:33px;}
+.boy-new-couponlink .boy-new-coupon{ width:100%; height:100%; margin:0;}
+.boy-new-couponlink .boy-new-coupon dt{ width:84px; line-height:33px; height:33px; margin:0; font-size:18px; border-width:2px;}
+.boy-new-couponlink .boy-new-coupon dd{ padding-top:4px;}
+.boy-new-list li:hover .boy-new-hover{ display:block;}
+/*男孩聚划算*/
+#boyjhs { width:100%;background:#753ac8;}
+/*极简主义*/
+#mostsimple{width:100%;background:#753ac8; padding-top:54px;}
+#mostsimple .xiuxian_tit{ height:33px; width:100%; margin:0 auto; background:url(../images/bggg.png) no-repeat 0 -669px; padding-top:6px;}
+#mostsimple .xiuxian_tit .titwz{ background:url(../images/bggg.png) no-repeat 0 -478px;overflow:hidden; text-indent:-99em;}
+#mostsimple .girl-arder-shopname{ line-height:20px; font-size:16px; color:#1e5fc3;}
+#mostsimple .girl-arder-price em{  font-style:normal; float:left; line-height:36px; height:36px;  color:#1e5fc3; font-size:22px;}
+#mostsimple .girl-arder-price b{ font-weight:400; font-size:14px;}
+#mostsimple .girl-arder-hover{ display:none; position:absolute; z-index:77; left:-2px; top:-2px; width:100%; height:100%; border:2px solid #5c29c4;}
+#mostsimple .xxsslist li:hover .girl-arder-hover{ display:block;}
+#mostsimple .girl-arder-coupon{ display:block ; position:relative; z-index:99; width:169px; height:36px; margin-left:9px; background:url(../images/bggg.png) no-repeat -725px -285px;}
+/*个性潮流*/
+#personal{width:100%;background:#753ac8; padding-top:54px;}
+#personal .xiuxian_tit{ height:33px; width:100%; margin:0 auto; background:url(../images/bggg.png) no-repeat 0 -669px; padding-top:6px;}
+#personal .xiuxian_tit .titwz{ background:url(../images/bggg.png) no-repeat 0 -528px;overflow:hidden; text-indent:-99em;}
+#personal .girl-arder-shopname{ line-height:20px; font-size:16px; color:#1e5fc3;}
+#personal .girl-arder-price em{  font-style:normal; float:left; line-height:36px; height:36px;  color:#1e5fc3; font-size:22px;}
+#personal .girl-arder-price b{ font-weight:400; font-size:14px;}
+#personal .girl-arder-hover{ display:none; position:absolute; z-index:77; left:-2px; top:-2px; width:100%; height:100%; border:2px solid #5c29c4;}
+#personal .xxsslist li:hover .girl-arder-hover{ display:block;}
+#personal .girl-arder-coupon{ display:block ; position:relative; z-index:99; width:169px; height:36px; margin-left:9px; background:url(../images/bggg.png) no-repeat -725px -285px;}
+/*商务职场*/
+#shopwork {width:100%;background:#753ac8; padding-top:54px;}
+#shopwork  .xiuxian_tit{ height:33px; width:100%; margin:0 auto; background:url(../images/bggg.png) no-repeat 0 -669px; padding-top:6px;}
+#shopwork  .xiuxian_tit .titwz{ background:url(../images/bggg.png) no-repeat 0 -577px;overflow:hidden; text-indent:-99em;}
+#shopwork .girl-arder-shopname{ line-height:20px; font-size:16px; color:#1e5fc3;}
+#shopwork .girl-arder-price em{  font-style:normal; float:left; line-height:36px; height:36px;  color:#1e5fc3; font-size:22px;}
+#shopwork  .girl-arder-price b{ font-weight:400; font-size:14px;}
+#shopwork  .girl-arder-hover{ display:none; position:absolute; z-index:77; left:-2px; top:-2px; width:100%; height:100%; border:2px solid #5c29c4;}
+#shopwork  .xxsslist li:hover .girl-arder-hover{ display:block;}
+#shopwork  .girl-arder-coupon{ display:block ; position:relative; z-index:99; width:169px; height:36px; margin-left:9px; background:url(../images/bggg.png) no-repeat -725px -285px;}
+/*舒适休闲*/
+#comformtable{width:100%;background:#753ac8; padding-top:54px;}
+#comformtable .xiuxian_tit{ height:33px; width:100%; margin:0 auto; background:url(../images/bggg.png) no-repeat 0 -669px; padding-top:6px;}
+#comformtable  .xiuxian_tit .titwz{ background:url(../images/bggg.png) no-repeat 0 -626px;overflow:hidden; text-indent:-99em;}
+#comformtable .girl-arder-shopname{ line-height:20px; font-size:16px; color:#1e5fc3;}
+#comformtable .girl-arder-price em{  font-style:normal; float:left; line-height:36px; height:36px;  color:#1e5fc3; font-size:22px;}
+#comformtable  .girl-arder-price b{ font-weight:400; font-size:14px;}
+#comformtable  .girl-arder-hover{ display:none; position:absolute; z-index:77; left:-2px; top:-2px; width:100%; height:100%; border:2px solid #5c29c4;}
+#comformtable  .xxsslist li:hover .girl-arder-hover{ display:block;}
+#comformtable  .girl-arder-coupon{ display:block ; position:relative; z-index:99; width:169px; height:36px; margin-left:9px; background:url(../images/bggg.png) no-repeat -725px -285px;}
+/*男装中国质造*/
+#boychina{width:100%;background:#753ac8; padding-top:60px; padding-bottom:35px;}
+#boychina .xxsslist ul{ width:110%; height:auto; margin-top:20px;}
+#boychina .xxsslist li{ width:190px; height:310px;margin:10px 10px 0 0; background:#fff; position:relative; float:left;}
+.createchina_tit{ width:348px; height:74px; background:url(../images/bggg.png) -337px -516px; margin:0 auto; }
+#boychina .createchinaimg{ display:block;}
+#boychina .girl-arder-buy{ position:relative; z-index:99;display:block; width:169px; height:36px; font-size:18px; line-height:36px; text-align:center; color:#FFF; background:#1e5fc3; margin-left:11px;}
+#boychina .girl-arder-hover{ display:none; position:absolute; z-index:77; left:-2px; top:-2px; width:100%; height:100%; border:2px solid #f4e033;}
+#boychina .xxsslist li:hover .girl-arder-hover{ display:block;}
+#boychina .girl-arder-price em{  font-style:normal; float:left; line-height:36px; height:36px;  color:#1e5fc3; font-size:22px;}
+
+
+
+
+
+
+
+
+
+/*公共*/
+.layer{ width:990px; margin:0 auto; padding-left:2px; padding-right:2px; } 
+.titwz{ width:114px; height:30px; margin-left:435px  }
